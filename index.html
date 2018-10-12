@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>D3Times</title>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+    crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/d3Style.css">
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-xs-12 col-md-12">
+        <h1>D3Times</h1>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div id="scatter">
+          <!-- We append our chart here. -->
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-xs-12  col-md-9">
+        <div class="article">
+          <h2>High percentage of obesity and smokers are affecting states with lower median income</h2>
+          <p>Based on the data provided by latest information from the U.S. Census Bureau and the 
+            Behavioral Risk Factor Surveillance System, states with lower median income have higher 
+            percentage of obesity and smokers. In the scatter plot above, each circle represents each 
+            state and its location on the graph shows the relationship between the state's median income 
+            and percentage of obesity or smokers in that state.</p>
+
+          <p>Arkansas (AK), West Virginia (WV), and Mississippi (MS) have the lowest median income 
+            and the highest obesity percentage, 35.9%, 35.7%, and 35.5% respectively. These 3 states 
+            also on the top 6 states that have a high smoker’s percentage; WV is number one with 26.7%, 
+            AK is on the third place with 24.7%, and MS is on the sixth place with 23% of its residence smoke.</p>
+
+          <p>Obesity is an epidemic in the US. This condition puts people at a higher risk for serious 
+            diseases such as diabetes and heart disease. Smoking is also harmful for the body and causes 
+            respiratory disease, heart disease, and cancer. Further research is needed to understand the 
+            cause of these harmful condition and behaviors, whether it is because of the limited option due 
+            to residence's purchasing power or these areas are receiving less access to healthy lifestyle options.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2016</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.13.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.js"></script>
+  <script type="text/javascript" src="assets/js/app.js"></script>
+
+</body>
+
+</html>
